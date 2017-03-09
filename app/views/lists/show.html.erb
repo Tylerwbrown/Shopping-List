@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Active items:</strong>
+  <%= @list.active_items %>
+</p>
+
+<p>
+  <strong>Finished items:</strong>
+  <%= @list.finished_items %>
+</p>
+
+<p>
+  <strong>Problem items:</strong>
+  <%= @list.problem_items %>
+</p>
+
+<%= link_to 'Edit', edit_list_path(@list) %> |
+<%= link_to 'Back', lists_path %>

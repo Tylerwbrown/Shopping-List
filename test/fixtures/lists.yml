@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  active_items: 
+  finished_items: 
+  problem_items: 
+
+two:
+  active_items: 
+  finished_items: 
+  problem_items: 
